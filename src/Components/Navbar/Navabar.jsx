@@ -1,5 +1,5 @@
 import { MdArrowOutward } from "react-icons/md";
-
+ import logo from "../../../src/assets/logo dark.png"
 const Navabar = () => {
     return (
         <div className="bg-gray-200  " >
@@ -32,7 +32,7 @@ const Navabar = () => {
       </ul>
     </div>
     <a className="btn btn-ghost ">
-        <img src="../../../src/assets/logo dark.png" className="w-10 sm:w-16 md:w-24" alt="logo" />
+        <img src={logo} className="w-10 sm:w-16 md:w-24" alt="logo" />
     </a>
   </div>
   <div className="navbar-center hidden lg:flex">

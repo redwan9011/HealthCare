@@ -1,12 +1,12 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
-
+import logo from "../../../src/assets/logo light.png"
 
 const Footer = () => {
     return (
         <div className="bg-[#1b1950] ">
             <footer className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-3 text-white  lg:max-w-6xl 2xl:max-w-7xl lg:mx-8 xl:mx-auto mx-5 md:mx-8 py-16">
   <aside className="text-gray-300 space-y-3 text-xs md:text-sm lg:text-base">
-    <img src="../../../src/assets/logo light.png" className="w-14 md:w-16 lg:w-28" alt="" />
+    <img src={logo} className="w-14 md:w-16 lg:w-28" alt="" />
     <p>
     123 Main Street Anytown,
       <br />

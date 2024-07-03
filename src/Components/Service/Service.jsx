@@ -1,5 +1,7 @@
 import { MdArrowOutward } from "react-icons/md";
-
+import img from "../../../src/assets/Rectangle 27-2.png"
+import img2 from "../../../src/assets/Rectangle 27-1.png"
+import img3 from "../../../src/assets/Rectangle 27.png"
 
 const Service = () => {
     return (
@@ -19,15 +21,15 @@ const Service = () => {
             <div className="relative ">
              
                 <div className="">
-                <img src="../../../src/assets/Rectangle 27-2.png"  className=" rounded-xl " alt="service image"  />
+                <img src={img}  className=" rounded-xl " alt="service image"  />
                 </div>
 
                 <div className="bg-[#1b1950] text-white w-10/12 md:w-8/12 lg:w-7/12 p-3 lg:p-6 rounded-2xl absolute bottom-2 left-4 md:bottom-6 md:left-8 lg:bottom-6 lg:left-6 opacity-80 ">
 
                     <div className="flex gap-3 items-end">
                   <div>
-                  <h1 className="font-medium text-sm lg:text-base lg:mb-3">Our mission is simple</h1>
-                  <p className="text-xs text-[#b6aeae]">To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
+                  <h1 className="font-medium text-sm lg:text-base lg:mb-3">Advanced Technology</h1>
+                  <p className="text-xs text-[#b6aeae]">Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision</p>
                   </div>
 
                     <span className="bg-yellow-400 rounded-full  p-2 flex justify-center items-center"><MdArrowOutward></MdArrowOutward></span>
@@ -40,13 +42,13 @@ const Service = () => {
             <div className="relative ">
              
             <div className="">
-                <img src="../../../src/assets/Rectangle 27-1.png"  className=" rounded-xl " alt="service image"  />
+                <img src={img2}  className=" rounded-xl " alt="service image"  />
                 </div>
              <div className="bg-[#1b1950] text-white w-10/12 md:w-8/12 lg:w-7/12 p-3 lg:p-6 rounded-2xl absolute bottom-2 left-4 md:bottom-6 md:left-8 lg:bottom-6 lg:left-6 opacity-80 ">
                    <div className="flex gap-3 items-end">
                   <div>
-                  <h1 className="font-medium text-sm lg:text-base lg:mb-3">Our mission is simple</h1>
-                  <p className="text-xs text-[#b6aeae]">To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
+                  <h1 className="font-medium text-sm lg:text-base lg:mb-3">Online Doctor Meet</h1>
+                  <p className="text-xs text-[#b6aeae]">Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision</p>
                   </div>
 
                     <span className="bg-yellow-400 rounded-full  p-2 flex justify-center items-center"><MdArrowOutward></MdArrowOutward></span>
@@ -59,15 +61,15 @@ const Service = () => {
          <div className="relative ">
              
          <div className="">
-                <img src="../../../src/assets/Rectangle 27.png"  className=" rounded-xl " alt="service image"  />
+                <img src={img3}  className=" rounded-xl " alt="service image"  />
                 </div>
             
 
              <div className="bg-[#1b1950] text-white w-10/12 md:w-8/12 lg:w-7/12 p-3 lg:p-6 rounded-2xl absolute bottom-2 left-4 md:bottom-6 md:left-8 lg:bottom-6 lg:left-6 opacity-80 ">
              <div className="flex gap-3 items-end">
                   <div>
-                  <h1 className="font-medium text-sm lg:text-base lg:mb-3">Our mission is simple</h1>
-                  <p className="text-xs text-[#b6aeae]">To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
+                  <h1 className="font-medium text-sm lg:text-base lg:mb-3">Consultancy your health</h1>
+                  <p className="text-xs text-[#b6aeae]">Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision</p>
                   </div>
 
                     <span className="bg-yellow-400 rounded-full  p-2 flex justify-center items-center"><MdArrowOutward></MdArrowOutward></span>

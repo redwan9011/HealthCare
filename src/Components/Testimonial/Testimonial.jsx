@@ -6,12 +6,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-// import './styles.css';
-
-// import required modules
 import { Pagination } from 'swiper/modules';
 import { FaStar } from 'react-icons/fa';
 
+import autho1 from "../../../src/assets/Ellipse 10.png"
+import autho2 from "../../../src/assets/Ellipse 10 (1).png"
+import autho3 from "../../../src/assets/Ellipse 10 (2).png"
+import autho4 from "../../../src/assets/Ellipse 3.png"
 
 const Testimonial = () => {
     return (
@@ -38,7 +39,7 @@ const Testimonial = () => {
 
                 <div className='flex items-center gap-2 mt-2'>
                   <div > 
-                  <img src="../../../src/assets/Ellipse 10.png" alt="author" />
+                  <img src={autho1} alt="author" />
                   </div >
                     <div >
                         <h5><span className='font-semibold'>Sarah D,</span>  IT Professional</h5>
@@ -64,7 +65,7 @@ const Testimonial = () => {
 
                 <div className='flex items-center gap-2 mt-2'>
                   <div > 
-                  <img src="../../../src/assets/Ellipse 10 (1).png" alt="author" />
+                  <img src={autho2} alt="author" />
                   </div >
                     <div >
                         <h5><span className='font-semibold'>Michael R, </span>  Business Executive</h5>
@@ -88,7 +89,7 @@ const Testimonial = () => {
 
                 <div className='flex items-center gap-2 mt-2'>
                   <div > 
-                  <img src="../../../src/assets/Ellipse 10 (2).png" alt="author" />
+                  <img src={autho3} alt="author" />
                   </div >
                     <div >
                         <h5><span className='font-semibold'>David S, </span>Lawyer</h5>
@@ -113,7 +114,7 @@ const Testimonial = () => {
 
                 <div className='flex items-center gap-2 mt-2'>
                   <div > 
-                  <img src="../../../src/assets/Ellipse 10.png" alt="author" />
+                  <img src={autho4} alt="author" />
                   </div >
                     <div >
                         <h5><span className='font-semibold'>Sarah D,</span>  IT Professional</h5>
@@ -137,7 +138,7 @@ const Testimonial = () => {
 
                 <div className='flex items-center gap-2 mt-2'>
                   <div > 
-                  <img src="../../../src/assets/Ellipse 10 (1).png" alt="author" />
+                  <img src={autho1} alt="author" />
                   </div >
                     <div >
                         <h5><span className='font-semibold'>Michael R, </span>  Business Executive</h5>
@@ -162,7 +163,7 @@ const Testimonial = () => {
 
                 <div className='flex items-center gap-2 mt-2'>
                   <div > 
-                  <img src="../../../src/assets/Ellipse 10 (2).png" alt="author" />
+                  <img src={autho2} alt="author" />
                   </div >
                     <div >
                         <h5><span className='font-semibold'>David S, </span>Lawyer</h5>
@@ -198,7 +199,7 @@ const Testimonial = () => {
 
                 <div className='flex items-center gap-2 mt-2'>
                   <div > 
-                  <img src="../../../src/assets/Ellipse 10.png" alt="author" />
+                  <img src={autho1} alt="author" />
                   </div >
                     <div >
                         <h5><span className='font-semibold'>Sarah D,</span>  IT Professional</h5>
@@ -224,7 +225,7 @@ const Testimonial = () => {
 
                 <div className='flex items-center gap-2 mt-2'>
                   <div > 
-                  <img src="../../../src/assets/Ellipse 10 (1).png" alt="author" />
+                  <img src={autho3} alt="author" />
                   </div >
                     <div >
                         <h5><span className='font-semibold'>Michael R, </span>  Business Executive</h5>
@@ -248,7 +249,7 @@ const Testimonial = () => {
 
                 <div className='flex items-center gap-2 mt-2'>
                   <div > 
-                  <img src="../../../src/assets/Ellipse 10 (2).png" alt="author" />
+                  <img src={autho3} alt="author" />
                   </div >
                     <div >
                         <h5><span className='font-semibold'>David S, </span>Lawyer</h5>
@@ -273,7 +274,7 @@ const Testimonial = () => {
 
                 <div className='flex items-center gap-2 mt-2'>
                   <div > 
-                  <img src="../../../src/assets/Ellipse 10.png" alt="author" />
+                  <img src={autho4} alt="author" />
                   </div >
                     <div >
                         <h5><span className='font-semibold'>Sarah D,</span>  IT Professional</h5>
@@ -297,7 +298,7 @@ const Testimonial = () => {
 
                 <div className='flex items-center gap-2 mt-2'>
                   <div > 
-                  <img src="../../../src/assets/Ellipse 10 (1).png" alt="author" />
+                  <img src={autho2} alt="author" />
                   </div >
                     <div >
                         <h5><span className='font-semibold'>Michael R, </span>  Business Executive</h5>
@@ -322,7 +323,7 @@ const Testimonial = () => {
 
                 <div className='flex items-center gap-2 mt-2'>
                   <div > 
-                  <img src="../../../src/assets/Ellipse 10 (2).png" alt="author" />
+                  <img src={autho2} alt="author" />
                   </div >
                     <div >
                         <h5><span className='font-semibold'>David S, </span>Lawyer</h5>
