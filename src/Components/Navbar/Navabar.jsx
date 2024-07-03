@@ -2,7 +2,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Navabar = () => {
     return (
-        <div className="bg-gray-100">
+        <div className="bg-gray-200" >
           <div className="navbar  lg:max-w-6xl 2xl:max-w-7xl mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
@@ -23,10 +23,10 @@ const Navabar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box gap-6 z-[1] mt-3 w-52 p-2 shadow">
-        <a>Home</a>
-        <a>Service</a>
-      <a>Blog</a>
-      <a href="#about-us">About Us</a>
+        <a className="hover:text-[#272568] delay-200 font-semibold" href="#navbar" >Home</a>
+        <a className="hover:text-[#272568] delay-200 font-semibold" href="#service">Service</a>
+        <a className="hover:text-[#272568] delay-200 font-semibold" href="#blog">Blog</a>
+      <a className="hover:text-[#272568] delay-200 font-semibold" href="#about-us">About Us</a>
   
         
       </ul>
@@ -37,10 +37,10 @@ const Navabar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 gap-6">
-        <a>Home</a>
-        <a>Service</a>
-        <a>Blog</a>
-        <a href="#about-us">About Us</a>
+      <a className="hover:text-[#272568] delay-200 font-semibold">Home</a>
+        <a className="hover:text-[#272568] delay-200 font-semibold" href="#service">Service</a>
+        <a className="hover:text-[#272568] delay-200 font-semibold" href="#blog">Blog</a>
+        <a className="hover:text-[#272568] delay-200 font-semibold" href="#about-us">About Us</a>
     </ul>
   </div>
   <div className="navbar-end">

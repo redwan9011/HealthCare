@@ -15,7 +15,7 @@ import { FaStar } from 'react-icons/fa';
 
 const Testimonial = () => {
     return (
-        <div className="lg:max-w-6xl 2xl:max-w-7xl mx-auto my-12 ">
+        <div className="lg:max-w-6xl 2xl:max-w-7xl mx-auto my-12 " id='blog'>
 
             <div>
             <p className="border px-4 py-2 rounded-xl w-fit border-black">Testimonial</p>

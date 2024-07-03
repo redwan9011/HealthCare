@@ -3,7 +3,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Service = () => {
     return (
-        <div className="my-10">
+        <div className="my-10" id="service">
              <div id="about-us" className="lg:max-w-6xl 2xl:max-w-7xl mx-auto ">
          <div className="grid grid-cols-2 items-center">
            
