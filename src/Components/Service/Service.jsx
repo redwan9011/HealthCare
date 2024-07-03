@@ -18,7 +18,7 @@ const Service = () => {
         
             <div className="relative ">
              
-                <div className="p-12">
+                <div className="p-8">
                 <img src="../../../src/assets/Rectangle 27-2.png"  className=" rounded-xl " alt="service image"  />
                 </div>
                
@@ -40,7 +40,7 @@ const Service = () => {
 
             <div className="relative ">
              
-            <div className="p-12">
+            <div className="p-8">
                 <img src="../../../src/assets/Rectangle 27-1.png"  className=" rounded-xl " alt="service image"  />
                 </div>
              <div className="bg-[#1b1950] text-white w-6/12 p-6 rounded-2xl absolute  bottom-16 left-16 opacity-80 ">
@@ -59,12 +59,12 @@ const Service = () => {
 
          <div className="relative ">
              
-         <div className="p-12">
+         <div className="8">
                 <img src="../../../src/assets/Rectangle 27.png"  className=" rounded-xl " alt="service image"  />
                 </div>
             
 
-             <div className="bg-[#1b1950] text-white w-6/12 p-6 rounded-2xl absolute  bottom-16 left-16 opacity-80 ">
+             <div className="bg-[#1b1950] text-white w-6/12 p-6 rounded-2xl absolute  bottom-10 left-10 opacity-80 ">
              <div className="flex gap-3 items-end">
                   <div>
                   <h1 className="font-medium mb-3">Our mission is simple</h1>
