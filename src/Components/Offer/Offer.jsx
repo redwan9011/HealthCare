@@ -3,7 +3,7 @@ import img from "../../../src/assets/Rectangle 32.png"
 
 const Offer = () => {
     return (
-        <div className="lg:max-w-6xl 2xl:max-w-7xl mx-auto my-10 rounded-3xl">
+        <div className="lg:max-w-6xl 2xl:max-w-7xl mx-auto mt-14 mb-10 rounded-3xl">
             <div
   className="hero h-[60vh] w-full relative"
   style={{
