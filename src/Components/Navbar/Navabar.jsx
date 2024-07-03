@@ -3,7 +3,7 @@ import { MdArrowOutward } from "react-icons/md";
 const Navabar = () => {
     return (
         <div className="bg-gray-100">
-          <div className="navbar  max-w-7xl mx-auto">
+          <div className="navbar  lg:max-w-6xl 2xl:max-w-7xl mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
