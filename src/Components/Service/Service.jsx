@@ -4,8 +4,8 @@ import { MdArrowOutward } from "react-icons/md";
 const Service = () => {
     return (
         <div className="my-14" id="service">
-             <div id="about-us" className="lg:max-w-6xl 2xl:max-w-7xl mx-5 md:mx-8 lg:mx-auto ">
-         <div className="flex flex-col gap-3 md:grid md:grid-cols-2 md:gap-5 lg:gap-0 items-center">
+             <div id="about-us" className="lg:max-w-6xl 2xl:max-w-7xl mx-5 md:mx-8 lg:mx-8 xl:mx-auto ">
+         <div className="flex flex-col gap-3 md:grid md:grid-cols-2 md:gap-5 lg:gap-10 items-center">
            
          <div className="space-y-4">
                 <p className="border px-4 py-2 rounded-xl w-fit border-black">Service</p>
@@ -18,11 +18,11 @@ const Service = () => {
         
             <div className="relative ">
              
-                <div className="lg:p-8">
+                <div className="">
                 <img src="../../../src/assets/Rectangle 27-2.png"  className=" rounded-xl " alt="service image"  />
                 </div>
 
-                <div className="bg-[#1b1950] text-white w-10/12 md:w-8/12 lg:w-6/12 p-3 lg:p-6 rounded-2xl absolute bottom-2 left-4 md:bottom-6 md:left-8 lg:bottom-16 lg:left-16 opacity-80 ">
+                <div className="bg-[#1b1950] text-white w-10/12 md:w-8/12 lg:w-7/12 p-3 lg:p-6 rounded-2xl absolute bottom-2 left-4 md:bottom-6 md:left-8 lg:bottom-6 lg:left-6 opacity-80 ">
 
                     <div className="flex gap-3 items-end">
                   <div>
@@ -39,10 +39,10 @@ const Service = () => {
 
             <div className="relative ">
              
-            <div className="lg:p-8">
+            <div className="">
                 <img src="../../../src/assets/Rectangle 27-1.png"  className=" rounded-xl " alt="service image"  />
                 </div>
-             <div className="bg-[#1b1950] text-white w-10/12 md:w-8/12 lg:w-6/12 p-3 lg:p-6 rounded-2xl absolute bottom-2 left-4 md:bottom-6 md:left-8 lg:bottom-16 lg:left-16 opacity-80 ">
+             <div className="bg-[#1b1950] text-white w-10/12 md:w-8/12 lg:w-7/12 p-3 lg:p-6 rounded-2xl absolute bottom-2 left-4 md:bottom-6 md:left-8 lg:bottom-6 lg:left-6 opacity-80 ">
                    <div className="flex gap-3 items-end">
                   <div>
                   <h1 className="font-medium text-sm lg:text-base lg:mb-3">Our mission is simple</h1>
@@ -58,12 +58,12 @@ const Service = () => {
 
          <div className="relative ">
              
-         <div className="lg:p-8">
+         <div className="">
                 <img src="../../../src/assets/Rectangle 27.png"  className=" rounded-xl " alt="service image"  />
                 </div>
             
 
-             <div className="bg-[#1b1950] text-white w-10/12 md:w-8/12 lg:w-6/12 p-3 lg:p-6 rounded-2xl absolute bottom-2 left-4 md:bottom-6 md:left-8 lg:bottom-16 lg:left-16 opacity-80 ">
+             <div className="bg-[#1b1950] text-white w-10/12 md:w-8/12 lg:w-7/12 p-3 lg:p-6 rounded-2xl absolute bottom-2 left-4 md:bottom-6 md:left-8 lg:bottom-6 lg:left-6 opacity-80 ">
              <div className="flex gap-3 items-end">
                   <div>
                   <h1 className="font-medium text-sm lg:text-base lg:mb-3">Our mission is simple</h1>

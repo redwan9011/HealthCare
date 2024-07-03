@@ -2,7 +2,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const AboutUs = () => {
     return (
-        <div id="about-us" className="lg:max-w-6xl 2xl:max-w-7xl mx-5 md:mx-8 lg:mx-auto my-10">
+        <div id="about-us" className="lg:max-w-6xl 2xl:max-w-7xl mx-5 md:mx-8 lg:mx-8 xl:mx-auto my-10">
          <div className="flex flex-col gap-3 md:grid md:grid-cols-2 md:gap-7 lg:gap-10 items-center">
            
          <div className=" md:space-y-2 lg:space-y-4">
@@ -15,7 +15,7 @@ const AboutUs = () => {
 
             
             <div className="relative">
-                <img src="../../../src/assets/Rectangle 24.png" className="lg:p-12" alt="" />
+                <img src="../../../src/assets/Rectangle 24.png" className="" alt="" />
 
                 <div className="bg-[#1b1950] text-white w-7/12 p-3 lg:p-6 rounded-2xl absolute -bottom-6 md:bottom-5 md:-left-9 lg:bottom-8 lg:-left-12">
                     <h1 className="font-medium mb-3 text-sm lg:text-base">Our mission is simple</h1>

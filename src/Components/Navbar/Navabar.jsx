@@ -3,7 +3,7 @@ import { MdArrowOutward } from "react-icons/md";
 const Navabar = () => {
     return (
         <div className="bg-gray-200  " >
-          <div className="navbar  lg:max-w-6xl 2xl:max-w-7xl mx-5 lg:mx-auto md:mx-8">
+          <div className="navbar  lg:max-w-6xl 2xl:max-w-7xl mx-5 lg:mx-auto md:mx-8 ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -44,7 +44,7 @@ const Navabar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-  <button className="flex items-center gap-2 border border-blue-900 text-xs sm:text-sm  md:text-lg px-5 py-2 rounded-lg">Appointment <MdArrowOutward  /></button>
+  <button className="flex items-center gap-2 border border-blue-900 text-xs sm:text-sm  md:text-base px-2 py-1 mr-10 md:px-4 md:py-2 lg:px-5 lg:py-2 rounded-lg md:mr-14 lg:mr-5 xl:mr-0">Appointment <MdArrowOutward  /></button>
   </div>
 </div>
         </div>

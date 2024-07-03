@@ -2,9 +2,9 @@
 
 const Faq = () => {
     return (
-        <div className="lg:max-w-6xl 2xl:max-w-7xl mx-auto mb-10">
+        <div className="lg:max-w-6xl 2xl:max-w-7xl lg:mx-8 xl:mx-auto mx-5 md:mx-8 mb-10">
             <p className="border px-4 py-2 rounded-xl w-fit border-black mb-2">Faq</p>
-            <h2 className="text-3xl text-[#1b1950] font-bold  mb-6">Frequntly Asked Question</h2>
+            <h2 className="text-xl md:2xl lg:text-3xl text-[#1b1950] font-bold  mb-6">Frequntly Asked Question</h2>
 
 
             <div className="space-y-2">
