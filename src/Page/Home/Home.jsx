@@ -1,5 +1,7 @@
+import AboutUs from "../../Components/AboutUs/AboutUs";
 import Banner from "../../Components/Banner/Banner";
 import Navabar from "../../Components/Navbar/Navabar";
+import Service from "../../Components/Service/Service";
 
 
 const Home = () => {
@@ -9,6 +11,11 @@ const Home = () => {
            
             <Navabar></Navabar>
             <Banner></Banner>
+
+
+            <AboutUs></AboutUs>
+
+            <Service></Service>
             
             </div>
         </div>

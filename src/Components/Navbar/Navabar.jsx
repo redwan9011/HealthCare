@@ -22,11 +22,11 @@ const Navabar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><a>Home</a></li>
-        <li><a>Service</a></li>
-        <li><a>Blog</a></li>
-        <li><a>About Us</a></li>
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box gap-6 z-[1] mt-3 w-52 p-2 shadow">
+        <a>Home</a>
+        <a>Service</a>
+      <a>Blog</a>
+      <a href="#about-us">About Us</a>
   
         
       </ul>
@@ -36,11 +36,11 @@ const Navabar = () => {
     </a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-        <li><a>Home</a></li>
-        <li><a>Service</a></li>
-        <li><a>Blog</a></li>
-        <li><a>About Us</a></li>
+    <ul className="menu menu-horizontal px-1 gap-6">
+        <a>Home</a>
+        <a>Service</a>
+        <a>Blog</a>
+        <a href="#about-us">About Us</a>
     </ul>
   </div>
   <div className="navbar-end">
